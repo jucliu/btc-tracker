@@ -1,0 +1,23 @@
+{
+  "name": "btc-tracker",
+  "version": "1.0.0",
+  "description": "Bitcoin address tracker with balance and transaction synchronization",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["bitcoin", "tracker", "blockchain", "wallet"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "axios": "^1.5.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
